@@ -1,0 +1,14 @@
+.rating__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.radio {
+    display: none;
+}
+
+.rating {
+    cursor: pointer
+}

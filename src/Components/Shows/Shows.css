@@ -1,0 +1,56 @@
+.shows__container {
+    padding: 2rem;
+}
+
+.row {
+    padding: 0px 0rem 1rem 1rem;
+}
+
+.category__title {
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: none
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.poster_img {
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 18px;
+    transition: transform 1000ms;
+    border-radius: 2.5px;
+}
+
+.poster_img:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster_img_large {
+    max-height: 300px;
+}
+
+.poster_img_large:hover {
+    transform: scale(1.06);
+    opacity: 1;
+}
+
+
+.error__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
